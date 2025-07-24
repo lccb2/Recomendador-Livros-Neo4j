@@ -1,10 +1,10 @@
-# 🧠 Guia de Instalação do Neo4j Desktop no Windows
+#  Guia de Instalação do Neo4j Desktop no Windows
 
 Este guia irá ajudá-lo a baixar, instalar e configurar o **Neo4j Desktop** para utilizar localmente em seus projetos.
 
 ---
 
-## 📥 1. Baixando o Neo4j Desktop
+##  1. Baixando o Neo4j Desktop
 
 1. Acesse o site oficial: [https://neo4j.com/download](https://neo4j.com/download)
 2. Clique em **"Download Desktop"**
@@ -13,7 +13,7 @@ Este guia irá ajudá-lo a baixar, instalar e configurar o **Neo4j Desktop** par
 
 ---
 
-## 💻 2. Instalando o Neo4j Desktop
+##  2. Instalando o Neo4j Desktop
 
 1. Execute o arquivo `.exe` baixado
 2. Siga as instruções do assistente de instalação (Next, Install...)
@@ -22,11 +22,11 @@ Este guia irá ajudá-lo a baixar, instalar e configurar o **Neo4j Desktop** par
 5. Clique em **"Create instance"** → **"Local DBMS"**
 6. Dê um nome ao banco (ex: `biblioteca-db`), defina uma senha (ex: `admin123`) e clique em **Create**
 
-> 💡 Lembre-se da senha definida: você precisará usá-la no arquivo `.env` do seu projeto Flask
+>  Você precisará usar a senha definida no arquivo `.env`
 
 ---
 
-## ⚙️ 3. Iniciando o Banco de Dados
+## 3. Iniciando o Banco de Dados
 
 1. Dentro do seu projeto no Neo4j Desktop, localize o DBMS criado
 2. Clique em **"Start"** para iniciar o banco
@@ -36,7 +36,7 @@ digite o que você deseja
 5. Popule o banco copiando o conteúdo do arquivo população_neo.txt que se encontra nesse repositório também
 ---
 
-## 🔗 4. Verificando a Porta de Conexão
+## 4. Verificando a Porta de Conexão
 
 - A porta padrão do Neo4j é `7687` (protocolo `bolt`), usada para conectar com o backend Flask
 - No seu arquivo `.env`, use as seguintes variáveis:
@@ -50,7 +50,7 @@ NEO4J_PASSWORD=sua_senha_definida
 
 ---
 
-## 🧪 5. Testando a Conexão
+## 5. Testando a Conexão
 
 Após iniciar o backend Flask (`python app.py`), você pode acessar no navegador:
 
@@ -69,5 +69,3 @@ Se tudo estiver funcionando corretamente, você verá uma resposta como:
 
 ---
 
-## ✅ Pronto!
-Agora o Neo4j está instalado, configurado e integrado ao seu projeto Flask. Você pode começar a usar a interface web (`index.html`) para cadastrar e consultar livros! 🚀
