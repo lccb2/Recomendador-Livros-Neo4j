@@ -1,4 +1,4 @@
-# Recomendador-Livros-Neo4j
+# 📚 Recomendador-Livros-Neo4j
 Projeto desenvolvido para apresentação de seminário da disciplina de Banco de Dados do curso de Sistemas de Informação da UFPE
 
 # Sistema de Biblioteca com Flask e Neo4j
